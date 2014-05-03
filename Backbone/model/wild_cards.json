@@ -1,0 +1,51 @@
+[
+  {
+    "id": "CW-01",
+    "name": "Capture Spies",
+    "description": "All opposing players must discard character cards with espionage abilities",
+    "rarity": "common",
+    "type": "wild"
+  },
+  {
+    "id": "CW-02",
+    "name": "Assassination",
+    "description": "Remove one character card from an opposing player.",
+    "rarity": "common",
+    "type": "wild"
+  },
+  {
+    "id": "CW-03",
+    "name": "Trade Character",
+    "description": "Trade a character of your choice for the next character in your stack.",
+    "rarity": "common",
+    "type": "wild"
+  },
+  {
+    "id": "CW-04",
+    "name": "Ability Transformation",
+    "description": "Transform one of your character's abilities into any other ability and maintain point value.",
+    "rarity": "common",
+    "type": "wild"
+  },
+  {
+    "id": "UW-01",
+    "name": "Change Sides",
+    "description": "Change the natural affiliation of a character currently held in hand.",
+    "rarity": "uncommon",
+    "type": "wild"
+  },
+  {
+    "id": "UW-02",
+    "name": "Shift Balance",
+    "description": "Shift Event Balance by two spaces in your favor.",
+    "rarity": "uncommon",
+    "type": "wild"
+  },
+  {
+    "id": "UW-03",
+    "name": "Shotgun Marriage",
+    "description": "todo: figure out what this card does. maybe combines some abilities and changes last name of woman.",
+    "rarity": "uncommon",
+    "type": "wild"
+  }
+]

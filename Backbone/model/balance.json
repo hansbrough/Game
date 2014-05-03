@@ -1,0 +1,99 @@
+[
+	{
+	  "id": "B-00",
+	  "name": "Game",
+	  "description": "Tracking the state of the overall Game Balance.",
+		"aftermath":{},
+		"listen":{},
+		"sides":["confederate","union"],
+		"stageIdx": 5, 
+		"type": "game",
+		"variety":"game"
+	},
+	{
+	  "id": "B-01",
+	  "name": "British Diplomacy",
+	  "description": "Tracking the state of diplomatic relations with Great Britain.",
+		"aftermath":{
+			"critical:union":"UV-01",
+			"terminal:union":"UV-02",
+			"terminal:confederate":"UV-03"
+		},
+		"listen":{
+			"CV-08:confederate:win": 1,
+			"CV-08:union:win": -1,
+			"CV-09:confederate:win": 3,
+			"CV-09:union:win": -1
+		},
+		"sides":["confederate","union"],
+		"stageIdx": 5, 
+		"type": "diplomacy",
+		"variety":"british"
+	},
+	{
+	  "id": "B-02",
+	  "name": "Confederate Citizen Morale",
+	  "description": "Tracking the morale of citizens in the Confederacy.",
+		"aftermath":{},
+		"listen":{
+			"CV-08:confederate:win": 2,
+			"CV-08:union:win": -1,
+			"balance:economic:confederate:optimistic:high":1
+		},
+		"sides":["low","high"],
+		"stageIdx": 6,
+		"stages": ["terminal","critical","severe","warning","caution","neutral","optimistic","cheerful","excited","joyous","exuberant"],
+		"type": "morale",
+		"variety":"confederate"
+	},
+	{
+	  "id": "B-03",
+	  "name": "Union Citizen Morale",
+	  "description": "Tracking the morale of Union citizens.",
+		"aftermath":{},
+		"listen":{
+			"balance:economic:union:optimistic:high":1
+		},
+		"sides":["low","high"],
+		"stageIdx": 6,
+		"stages": ["terminal","critical","severe","warning","caution","neutral","optimistic","cheerful","excited","joyous","exuberant"],
+		"type": "morale",
+		"variety":"union"
+		
+	},
+	{
+	  "id": "B-04",
+	  "name": "Confederate Economy",
+	  "description": "Tracking the Confederate Economy.",
+		"aftermath":{},
+		"listen":{
+			"balance:diplomacy:british:caution:confederate":-1,
+			"balance:diplomacy:british:warning:confederate":-1,
+			"balance:diplomacy:british:caution:union":1,
+			"balance:diplomacy:british:warning:union":1,
+			"trade:upgrade:confederate:UR-11":1,
+			"trade:upgrade:confederate:UR-10":1,
+			"confederate:ability:industrial:threshold:150":1
+		},
+		"sides":["low","high"],
+		"stageIdx": 5,
+		"stages": ["terminal","critical","severe","warning","caution","neutral","optimistic","cheerful","excited","joyous","exuberant"],
+		"type": "economic",
+		"variety":"confederate"
+	},
+	{
+	  "id": "B-05",
+	  "name": "Union Economy",
+	  "description": "Tracking the Union Economy.",
+		"aftermath":{},
+		"listen":{
+			"trade:upgrade:union:UR-11":1,
+			"union:ability:industrial:threshold:150":1
+		},
+		"sides":["low","high"],
+		"stageIdx": 5,
+		"stages": ["terminal","critical","severe","warning","caution","neutral","optimistic","cheerful","excited","joyous","exuberant"],
+		"type": "economic",
+		"variety":"union"
+	}
+]

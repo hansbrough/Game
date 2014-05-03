@@ -1,0 +1,454 @@
+[
+    {
+      "id": "CV-01",
+      "name": "Publishing of Uncle Tom's Cabin",
+      "description": "Written by Harriet Beecher Stowe 1852",
+      "event_ability_total": 15,
+      "ability":{
+        "social": 10,
+	    	"political": 0
+      },
+			"adjust_balance": true,
+      "aftermath": {
+			  "union": "Both sides draw two political characters if they exist in Player's deck.",
+				"confederate":"Both sides draw one political character if they exist in Player's deck.."
+			},
+			"action": {
+				"confederate":[
+					"confederate:draw:card:1:character:political",
+					"union:draw:card:1:character:political"
+				],
+				"union":[
+				  "union:draw:card:2:character:political",
+					"confederate:draw:card:2:character:political"
+				]
+			},
+			"requires": {
+				"confederate": ["UR-13:1|UR-14:1"],
+				"union": ["UR-13:1|UR-14:1"]
+			},
+			"requires_description": {
+				"confederate": "One Newspaper Publisher",
+				"union": "One Book Publisher"
+			},
+			"thumbnail":"CV-01_thumb_40.jpg",
+			"fullSizeImage":"CV-01_large.jpg",
+      "type": "event"
+    },
+    {
+      "id": "CV-02",
+      "name": "Kansas-Nebraska Act of 1854",
+      "description": "Created new territories and gave them the right to determine for themselves if they would allow slavery.",
+      "event_ability_total": 25,
+      "ability":{
+        "social": 10,
+	    	"political": 10
+      },
+			"adjust_balance": true,
+      "aftermath": {
+				"confederate":"The turmoil over the act split both the Democratic and Whig parties and gave rise to the Republican Party, which split the United States into two major political camps, North (Republican) and South (Democratic). A series of public debates raised Lincoln’s political profile for the first time.",
+				"union":"The turmoil over the act split both the Democratic and Whig parties and gave rise to the Republican Party, which split the United States into two major political camps, North (Republican) and South (Democratic). A series of public debates raised Lincoln’s political profile for the first time."
+			},
+			"action": {
+				"confederate":[
+					"union:draw:card:2:character:social",
+					"UP-02:add:card:5:ability:political"
+				],
+				"union":[
+					"confederate:draw:card:1:character:political",
+					"confederate:draw:card:1:character:military",
+					"UM-05:add:card:10:ability:military",
+					"UM-05:add:card:5:ability:social",
+					"UP-02:add:card:5:ability:political"
+				]
+			},
+			"requires": {
+				"confederate":[
+				  "CR-16:1|CR-02:1|CR-05:1",
+					"card:2:resource:political:3"
+				],
+				"union":[
+					"CR-16:1|CR-02:1|CR-05:1|CR-09:1",
+					"card:2:resource:political:3"
+				]
+			},
+			"thumbnail":"CV-02_thumb_40.jpg",
+			"fullSizeImage":"CV-02_large.jpg",
+      "type": "event"
+    },
+    {
+      "id": "CV-03",
+      "name": "'Bleeding Kansas' 1854-1861",
+      "description": "A series of violent political confrontations between pro-slavery and anti-slavery elements to determine if the territory of Kansas would enter the Union as a 'free' state",
+      "event_ability_total": 25,
+			"adjust_balance": false,
+      "ability":{
+        "social": 5,
+	    	"political": 5,
+        "military": 10
+      },
+      "aftermath": {
+				"confederate":"These small scale attacks were instrumental in leading to the Civil War as it was the first violent sectional conflict between the nation's two clear parties, the North and the South.",
+				"union":"These small scale attacks were instrumental in leading to the Civil War as it was the first violent sectional conflict between the nation's two clear parties, the North and the South."
+			},
+			"action": {
+				"confederate":[
+					"confederate:draw:card:1:character:political",
+					"union:draw:card:2:character:political"
+				],
+				"union":[
+				  "union:draw:card:1:character:political",
+					"confederate:draw:card:2:character:political"
+				]
+			},
+			"overview":{
+				"video":"LIpOctiKTAE",
+				"start":700,
+				"end":"945"
+			},
+			"thumbnail":"CV-03_thumb_40.jpg",
+			"fullSizeImage":"CV-03_large.jpg",
+      "type": "event"
+    },
+    {
+      "id": "CV-100",
+      "name": "Raid on Harper's Ferry",
+      "description": "October 16th, 1859",
+      "event_ability_total": 0,
+      "aftermath": "Confederates draw one military character card and three resource cards.",
+			"action": {
+				"catalyst":[
+					"confederate:draw:card:1:character:military",
+					"confederate:draw:card:3:resource:military"
+				]
+			},
+      "type": "catalyst"
+    },
+    {
+      "id": "CV-05",
+      "name": "Presidential Election of 1860",
+      "description": "The United States had been divided during the 1850's on questions surrounding the expansion of slavery and the rights of slave owners.",
+      "event_ability_total": 35,
+      "ability":{
+        "social": 0,
+	    	"political": 20
+      },
+			"adjust_balance": false,
+      "aftermath":{
+        "union": "Promotes Lincoln to President and triggers seven southern states to secede from the Union and eventually form the Confederacy.",
+	      "confederate": "Promotes Breckinridge to President."
+      },
+			"action": {
+				"confederate":[
+					"UP-03:add:card:15:ability:political",
+					"UP-03:add:card:5:ability:social",
+					"UP-02:subtract:card:15:ability:political"
+				],
+				"union":[
+				  "UP-02:add:card:15:ability:political",
+					"UP-02:add:card:5:ability:social",
+					"UP-05:add:card:5:ability:political",
+					"UP-03:subtract:card:15:ability:political"
+				]
+			},
+			"requires": {
+				"confederate":[
+				  "CR-18:2|UR-12:1|CR-19:4",
+					"card:2:resource:political:10"
+				],
+				"union":[
+					"CR-18:1|UR-12:1|CR-19:2",
+					"card:1:resource:political:10"
+				]
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-101",
+      "name": "Confederate Constitutional Convention",
+      "description": "Southern Delegates meet on February 9th, 1861 at the state capital in Montgomery, Alabama",
+      "event_ability_total": 0,
+      "aftermath": {
+				"confederate":"Jefferson Davis elected President and Alexander H. Stephens Vice President of the Confederate States. Davis shortly after offers to pay for any federal property on Southern soil as well as the Southern portion of the national debt."
+			},
+			"action": {
+				"catalyst":[
+					"UP-02:add:card:10:ability:political",
+					"CP-01:add:card:10:ability:political",
+					"CP-08:add:card:5:ability:political",
+					"CM-09:add:card:5:ability:military",
+					"UM-09:add:card:10:ability:military",
+					"UM-10:add:card:5:ability:military",
+					"UM-14:add:card:10:ability:military",
+					"CM-10:add:card:10:ability:military"
+				]
+			},
+      "type": "catalyst"
+    },
+    {
+      "id": "CV-06",
+      "name": "Battle of Fort Sumter",
+      "description": "April 12th - 14th, 1861",
+      "event_ability_total": 40,
+      "ability":{
+        "military": 30,
+	    	"political": 0,
+	    	"espionage": 0
+      },
+			"adjust_balance": true,
+      "aftermath": "",
+      "requires": {
+				"confederate": ["CR-01:1|UR-06:1","CR-04:1"],
+				"union": null
+			},
+			"requires_description": {
+				"confederate": "One artillery resource",
+				"union": ""
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-102",
+      "name": "Lincoln Calls for Volunteers",
+      "description": "April 15th, 1861 - The newly elected President Lincoln issues a public call for 75,000 volunteers to join the Union Army and suppress the rebellion.",
+      "event_ability_total": 0,
+			"adjust_balance": false,
+      "aftermath": "Virginia, North Carolina, Tennessee, Arkansas secede from Union. All players draw two resource cards.",
+			"action": {
+				"catalyst":[
+					"union:draw:card:2:resource:military",
+					"confederate:draw:card:2:resource:military",
+					"UM-11:add:card:3:ability:military",
+					"UM-13:add:card:5:ability:military"
+				]
+			},
+      "type": "catalyst"
+    },
+    {
+      "id": "CV-08",
+      "name": "British Recognition of Southern Independence",
+      "description": "May, 1861 - Britain responds to the Union blockade with a proclamation which the other European powers follow.",
+      "event_ability_total": 60,
+      "ability":{
+        "political": 30,
+				"social": 20
+      },
+			"adjust_balance": true,
+      "aftermath": {
+			  "union":"Britain does not recognize the confederacy but instead responds to the blockade with a proclamation of neutrality.",
+				"confederate":"Britain breaks the Union blockade which allows Confederates to solidify independence and gain international recognition."
+			},
+			"action": {
+				"confederate":[
+				  "union:block:card:3:resource:military",
+					"union:remove:card:2:resource:political",
+					"confederate:add:card:5:resource:industrial"
+				],
+				"union":[
+					"confederate:block:card:3:resource:industrial"
+				]				
+			},
+			"requires": {
+				"confederate":[
+				  "CR-08:2"
+				],
+				"union":[
+					"CR-08:1"
+				]
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-09",
+      "name": "The Trent Affair",
+      "description": "November, 1861 - A diplomatic incident that threatened war between Great Britain and the Union",
+      "event_ability_total": 60,
+      "ability":{
+        "political": 30,
+				"social": 20
+      },
+			"adjust_balance": true,
+      "aftermath": {
+			  "union":"It is generally acknowledged that Captain Wilkes had operated without orders, had erred by stopping the HMS Trent and seizing the Confederate envoys. The Confederates Mason and Slidell are released and tensions ease with Great Britain.",
+				"confederate":"The Union refuses to admit fault or release the Confederate envoys. The British Government bans the export of arms, ammunition, military stores, lead and saltpeter (used in making gunpowder). They also send several regiments to re-enforce Nova Scotia and steam powered warships in an attempt to break the Union blockade of Southern ports."
+			},
+			"action": {
+				"confederate":[
+				  "union:block:card:10:resource:industrial",
+					"union:block:card:5:resource:military",
+					"confederate:add:card:5:resource:industrial"
+				],
+				"union":[
+					"confederate:remove:card:2:resource:political"
+				]				
+			},
+			"requires": {
+				"confederate":[
+				  "CR-08:2"
+				],
+				"union":[
+					"CR-08:1"
+				]
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-10",
+      "name": "Battle of Fort Henry",
+      "description": "Fought on February 6, 1862, in western Middle Tennessee, it was the first important victory for the Union",
+      "event_ability_total": 50,
+      "ability":{
+        "military":20,
+				"naval":20
+      },
+			"adjust_balance": true,
+      "aftermath": {
+			  "confederate": "",
+				"union": ""
+			},
+			"action": {
+				"confederate":[
+				  
+				],
+				"union":[
+					
+				]
+			},
+			"requires": {
+				"confederate":[
+				  
+				],
+				"union":[]
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-11",
+      "name": "Battle of New Orleans",
+      "description": "April 18th - 28th, 1862",
+      "event_ability_total": 120,
+      "ability":{
+        "military": 120
+      },
+			"adjust_balance": true,
+      "aftermath": {
+			  "union": "Capture the Confederacy's greatest port and center of trade. The fighting along the river cost the confederacy 782 killed and wounded, as well as approximately 6,000 captured. After the fall of New Orleans, Captain Farragut was able to take control of much of the lower Mississippi and succeeded in capturing Baton Rouge and Natchez.",
+				"confederate":""
+			},
+			"action": {
+				"confederate":[
+				  "union:block:card:3:resource:military",
+					"union:remove:card:2:resource:military"
+				],
+				"union":[
+					"confederate:remove:card:3:resource:industrial",
+					"confederate:remove:card:1:resource:military",
+					"UM-07:add:card:5:ability:military"
+				]
+			},
+      "requires": {
+				"confederate":[
+				  "UR-06:1"
+				],
+				"union":[
+					"card:1:resource:naval:10"
+				]
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-12",
+      "name": "New York City Draft Riots",
+      "description": "July 13th - 16th, 1863",
+      "event_ability_total": 50,
+      "ability":{
+        "military": 10,
+				"political": 20,
+				"social": 5
+      },
+			"adjust_balance": false,
+      "aftermath": {
+			  "confederate": "Slows the Union Draft effort. The next 5 military resources drawn must be put back."
+			},
+			"action": {
+				"confederate":[
+				  "union:block:card:5:resource:military"
+				],
+				"union":[
+					"union:remove:card:2:resource:industrial"
+				]
+			},
+			"requires": {
+				"confederate":[
+				  "CR-16:2"
+				],
+				"union":null
+			},
+      "type": "event"
+    },
+    {
+      "id": "CV-13",
+      "name": "Battle of Vicksburg",
+      "description": "May 18th - July 4th, 1863",
+      "event_ability_total": 120,
+      "ability":{
+        "military": 90,
+		   	"political": 0,
+				"social": 0
+      },
+			"adjust_balance": true,
+      "aftermath": {
+				"union":"The Battle of Vicksburg is considered by most modern day historians to be one of the most major events in the Civil War. Some even consider it to be the very turning point in the war, allowing the Union the regain its footing and win the upper hand. The Union strategy from the very beginning of the war had been to capture the entire Mississippi River before advancing on Richmond, the Confederate capital. With the capitulation of Vicksburg, this goal was virtually completed. Just a few days later, Port Hudson surrendered, handing the control of the entire Mississippi into Union hands. In cutting the Confederacy in half, the Union gained a tactical advantage. The western half of the Confederacy could no longer communicate effectively with the Confederate headquarters in Richmond  therefore removing it from the war.",
+				"confederate":"Communication between east and west of the Mississippi stays open"
+			},
+			"action": {
+				"confederate":[
+				  "confederate:remove:card:2:resource:military",
+					"union:remove:card:3:resource:military"
+				],
+				"union":[
+					"confederate:remove:card:5:resource:military",
+					"union:remove:card:1:resource:military",
+					"UM-06:add:card:5:ability:military",
+					"UM-06:add:card:5:ability:political"
+				]
+			},
+			"requires": {
+				"confederate":[
+				  "UR-06:2"
+				],
+				"union":[
+					"card:2:resource:naval:5"
+				]
+			},
+      "type": "event"
+    },
+    {
+      "id": "UV-01",
+      "name": "Battle of Portland",
+      "description": "April, 1862 The British attack Portland, Maine",
+      "event_ability_total": 120,
+      "ability":{
+        "military": 90,
+		   	"political": 0,
+				"social": 0
+      },
+			"adjust_balance": true,
+      "aftermath": {
+				"union":"",
+				"confederate":""
+			},
+			"action": {
+				"confederate":[
+				  
+				],
+				"union":[
+					
+				]
+			},
+			"listen":{
+				"balance:diplomacy:british:terminal:union": "play"
+			},
+      "type": "event"
+    }
+]

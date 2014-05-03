@@ -1,0 +1,78 @@
+[
+  {
+    "id": "you_chose",
+    "template": "js/templates/messaging/you_chose.tmpl"
+  },
+  {
+    "id": "you_got_a_card_can_trade",
+    "template": "js/templates/messaging/you_got_a_card_can_trade.tmpl"
+  },
+  {
+    "id": "you_got_a_card_can_trade_and_event",
+    "template": "js/templates/messaging/you_got_a_card_can_trade_and_event.tmpl"
+  },
+  {
+    "id": "no_card_but_can_trade",
+    "template": "js/templates/messaging/no_card_but_can_trade.tmpl"
+  },
+ 	{
+    "id": "no_card_but_can_event",
+    "template": "js/templates/messaging/no_card_but_can_event.tmpl"
+  },
+ 	{
+    "id": "no_card_but_can_trade_or_event",
+    "template": "js/templates/messaging/no_card_but_can_trade_or_event.tmpl"
+  },
+  {
+    "id": "no_trade_no_event",
+    "template": "js/templates/messaging/no_trade_no_event.tmpl"
+  },
+  {
+    "id": "you_got_a_card_can_event",
+    "template": "js/templates/messaging/you_got_a_card_can_event.tmpl"
+  },
+  {
+    "id": "roll_for_resources",
+    "template": "js/templates/messaging/roll_for_resources.tmpl"
+  },
+  {
+    "id": "lets_trade",
+    "template": "js/templates/messaging/lets_trade.tmpl"
+  },
+  {
+    "id": "player_upgraded_card",
+    "template": "js/templates/messaging/player_upgraded_card.tmpl"
+  },
+  {
+    "id": "next_player",
+    "template": "js/templates/messaging/next_player.tmpl"
+  },
+  {
+    "id": "house_turn",
+    "template": "js/templates/messaging/house_turn.tmpl"
+  },
+  {
+    "id": "house_new_card",
+    "template": "js/templates/messaging/house_new_card.tmpl"
+  },
+  {
+    "id": "house_played_influence",
+    "template": "js/templates/messaging/house_played_influence.tmpl"
+  },
+  {
+    "id": "play_event",
+    "template": "js/templates/messaging/play_event.tmpl"
+  },
+ 	{
+    "id": "event_roll_attack_failed",
+    "template": "js/templates/messaging/event_roll_attack_failed.tmpl"
+  },
+	{
+	  "id": "event_roll_attack_blocked",
+	  "template": "js/templates/messaging/event_roll_attack_blocked.tmpl"
+	},
+	{
+	  "id": "event_roll_attack_success",
+	  "template": "js/templates/messaging/event_roll_attack_success.tmpl"
+	}
+]

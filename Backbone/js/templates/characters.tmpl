@@ -1,0 +1,38 @@
+
+  {{#characters}}
+  <li data-card-id="{{id}}" class="ui-droppable{{#if inhand}} inhand{{/if}}{{#if hide}} invisible{{/if}}">
+	  <h3>{{name}} <span class="card-id">({{id}})</span></h3>
+		<p class="headline">{{headline}}</p>
+		<span>affiliation: {{affiliation}}</span>
+		<a role="button" data-card-id="{{id}}" class="btn btn-primary pick" href="pick/">Pick</a>
+		<a role="button" data-card-id="{{id}}" class="btn btn-default discard" href="discard/">Toss</a>
+		
+		{{#if ability}}
+		<ul class="ability power">
+		  <h4>Abilities</h4>
+			{{#each ability}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+		
+		{{#if modifier}}
+		<ul class="modify power">
+		  <h4>Modifiers</h4>
+			{{#each modifier}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+
+		{{#if affinity}}
+		<ul class="affinity power">
+		  <h4>Affinity</h4>
+			{{#each affinity}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+		
+	</li>
+	{{/characters}}

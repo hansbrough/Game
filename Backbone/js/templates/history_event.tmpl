@@ -1,0 +1,45 @@
+{{#historic_event}}
+  <li id="{{id}}">
+		{{#if thumbnail}}
+		<a class="fancybox" rel="group" href="images/{{fullSizeImage}}"><img class="event-thumbnail" src="images/{{thumbnail}}"></a>
+		{{/if}}
+	  <h3>
+		{{#if overview}}
+			
+			<a class="overview fancybox fancybox.iframe" data-fancybox-type="iframe" role="button" href="http://www.youtube.com/embed/{{getVideo overview}}?autoplay=1&start=800&end=945">{{name}}</a>
+			
+			<!---<a class="overview fancybox" role="button" href="#{{getVideo overview}}">{{name}}</a>-->
+		{{else}}
+			{{name}}
+		{{/if}}
+		<span class="card-id">({{id}})</span></h3>
+	  <span class="badge badge-important card-badge">Event</span>
+	  <p class="ability-total"> total pts needed: {{event_ability_total}}</p>
+	  {{#if description}}
+		  <p class="description">{{description}}</p>
+		{{/if}}
+		<ul class="ability power">
+		  <h4>Minimum abilities per type</h4>
+		  {{#each ability}}
+		    <li><span>{{@key}}: </span> {{this}}</li>
+		  {{/each}}
+		</ul>
+		{{#if aftermath}}
+		  <ul class="aftermath">
+			  <h4>Aftermath</h4>
+		  {{#each aftermath}}
+		    <li><span>{{@key}} victory: </span> {{this}}</li>
+		  {{/each}}
+		  </ul>
+		{{/if}}
+		{{#if requires_description}}
+		  <ul class="requires">{{requires}}
+				<h4>Requires</h4>
+				{{#each requires_description}}
+				<li><span>{{@key}}: </span> {{this}}</li>
+				{{/each}}
+			</ul>
+		{{/if}}
+		
+	</li>
+{{/historic_event}}

@@ -1,0 +1,68 @@
+{
+  "currentEvent": null,
+	"currentEventRoll": null,
+	"currentRoll": null,
+	"currentRollBlocked": null,
+  "eventIndex": null,
+	"eventBalance": 7,
+  "packSize": 10,
+  "setupCharactersNum": 2,
+  "resourceDefaults": {
+    "union":["UR-02","CR-01","CR-02","CR-03","CR-04"],
+    "union_military":["UR-07","CR-03","CR-04","UR-02","UR-05"],
+    "union_political":["CR-02","CR-03","CR-05","CR-06","CR-08"],
+    "union_social":["CR-02","CR-03","CR-04","CR-11","CR-09","CR-10"],
+    "union_industrial":["CR-13","CR-21","CR-17","CR-18","CR-03"],
+    "union_espionage":["CR-14","CR-02","CR-03","CR-04","CR-16"],
+    "confederate":["UR-02","CR-01","CR-02","CR-04"],
+    "confederate_military":["UR-02","CR-01","CR-02","CR-03","CR-04","UR-04"],
+    "confederate_political":["CR-02","CR-03","CR-05","CR-06","CR-07","CR-08","CR-08"],
+    "confederate_social":["CR-02","CR-03","CR-04","CR-10","CR-11","CR-12"],
+    "confederate_industrial":["CR-17","CR-21","CR-13","CR-18","CR-03"],
+    "confederate_espionage":["CR-14","CR-02","CR-03","CR-04","CR-16"]
+  },
+  "resource_guides": {
+    "union": [null,null,null,null,null,null,null,"resource","resource","influence","influence","character"],
+    "confederate": [null,"wild","resource","resource","character","influence",null,null,null,null,null,null]
+  },
+	"resourceIntervals":{
+		"300000":[0,20],
+		"240000":[21,50],
+		"180000":[51,100],
+		"120000":[101,200],
+		"60000":[201,400]
+	},
+	"abilityTuples":{
+		"espionage":["military","espionage","social"],
+		"military":["political","military","espionage","naval"],
+		"naval":["military","naval"],
+		"political":["social","political"],
+		"social":["social","political"],
+		"industrial":["industrial","political"]
+	},
+	"abilityThresholds": {
+		"espionage":[50,100,150,300,500,700,1000],
+		"military":[50,100,150,300,500,700,1000],
+		"naval":[50,100,150,300,500,700,1000],
+		"political":[50,100,200,300,500,700,1000],
+		"social":[50,100,150,300,500,700,1000],
+		"industrial":[50,100,150,300,500,700,1000]
+	},
+	"influenceDefaults":{
+    "union":["CF-01"],
+		"confederate":["CF-02"]
+	},
+	"eventRangeDefaults":{
+  	"union":[7,12],
+		"confederate":[2,7]	
+	},
+	"flags":{
+		"confederate":"images/confederate_flag_40.jpg",
+		"union":"images/union_flag_40.jpg"
+	},
+	"rarityList":[
+		"common","uncommon","rare"
+	],
+	"User":{},
+	"House":{}
+}

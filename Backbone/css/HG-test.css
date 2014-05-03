@@ -1,0 +1,177 @@
+/* Wireframe Styles for the History Game */
+.game {
+  width: 940px;
+  margin: 0px 20px;
+}
+.game h1 {
+  font-size: 24px;
+}
+.game h3 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-right: 45px;
+}
+.game h3 span {
+  font-size: 14px;
+}
+.game h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/*--- 'Part of Game' modules ---*/
+.game.unbox {
+  background: #ffffff url('http://localhost/~hansbrough/Game/Native/images/unbox.png') no-repeat left top;
+}
+.game.unbox .character.cards,
+.game.confederate .resource-guide.union,
+.game.union .resource-guide.confederate {
+  display: none;
+}
+.game.unbox .event-balance,
+.game.pick .event-balance {
+  display: none;
+}
+/* turn off */
+.game .pick,
+.open-box,
+.resource-guide,
+.dice-cup,
+.event.cards,
+.trade-container {
+  display: none;
+}
+/* turn on */
+.game.unbox .open-box,
+.game.pick .btn.pick,
+.game.resources .resource-guide,
+.game.resources .dice-cup,
+.game.event-in-play .event.cards,
+.trade .trade-container {
+  display: block;
+}
+.game.pick .btn.pick {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+/* Unbox */
+.open-box {
+  margin: 30% 50%;
+  text-align: center;
+}
+/* Cards */
+.cards {
+  clear: both;
+}
+.cards > li {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  height: 280px;
+  width: 250px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  overflow: scroll;
+  padding: 10px;
+  position: relative;
+}
+.cards .headline {
+  font-weight: bold;
+}
+.power li {
+  margin-left: 5px;
+}
+.resource.cards > li {
+  height: 150px;
+  width: 200px;
+}
+.resource.cards h3 {
+  margin-right: 50px;
+}
+/* Resource Guide */
+.resource-guide {
+  border: 1px solid #999;
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+  width: 100px;
+}
+.resource-guide h4 {
+  text-align: center;
+  border-bottom: 1px solid #666;
+}
+.resource-guide em {
+  min-width: 20px;
+}
+.dice-cup {
+  float: left;
+}
+.dice-cup .dice {
+  border: 1px solid #999999;
+  float: left;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+.dice-cup .roll {
+  clear: both;
+}
+/* Event Balance Board */
+.event-balance {
+  border: 1px solid #999;
+  font-size: 16px;
+  overflow: hidden;
+  width: 780px;
+}
+.event-balance li {
+  border: 4px solid #d3d3d3;
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
+  margin: 10px 0px 10px 18px;
+  min-width: 50px;
+  text-align: center;
+}
+.event-balance .active {
+  border: 5px solid #7fa57f;
+  font-size: 24px;
+  font-weight: bold;
+  min-width: 60px;
+  padding: 8px;
+}
+/* Event Container */
+.event.cards {
+  clear: none;
+  float: left;
+  margin: 0px 0px 10px 10px;
+  position: relative;
+}
+.event.cards > li {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  height: 150px;
+  width: 540px;
+}
+.card-badge {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+/* Trading */
+.trade-container {
+  border: 1px solid #666;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#trading-well {
+  border: 1px solid #999;
+  width: 920px;
+  margin-bottom: 15px;
+  min-height: 150px;
+  overflow: scroll;
+}
+#trading-well.drop-hover {
+  border: 3px solid #7fa57f;
+}
+.ui-draggable:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,328 @@
+[
+  {
+    "id": "UR-01",
+    "name": "9th Virginia Cavalry",
+    "affiliation": "confederate",
+    "ability": {
+		  "military": 10
+		},
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-02",
+    "name": "Jr. Army Officer",
+    "ability":{
+      "military": 5
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-03",
+    "name": "Staff Army Officer",
+    "ability":{
+      "military": 10
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "RR-01",
+    "name": "General Army Officer",
+    "ability":{
+      "military": 15
+    },
+    "type": "resource",
+    "rarity": "rare"
+  },
+  {
+    "id": "RS-01",
+    "name": "Ticknor and Fields Publishing Co.",
+		"affiliation": "union",
+    "ability":{
+      "social": 20
+    },
+    "type": "resource",
+    "rarity": "rare"
+  },
+  {
+    "id": "UR-04",
+    "name": "Jr. Naval Officer",
+    "ability":{
+      "military": 2,
+			"naval": 5
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-05",
+    "name": "Naval Officer",
+    "ability":{
+      "military": 5,
+			"naval": 10
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-06",
+    "name": "Artillery Unit",
+    "ability":{
+      "military": 20
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-07",
+    "name": "Infantry Squad",
+    "ability":{
+      "military": 10
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-08",
+    "name": "Infantry Unit",
+    "ability":{
+      "military": 20
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-09",
+    "name": "Senator",
+    "ability":{
+      "political": 10
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-10",
+    "name": "Trade Agreement",
+    "ability":{
+      "political": 20
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-11",
+    "name": "Factory",
+    "ability":{
+      "industrial": 5
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-12",
+    "name": "Spy",
+    "ability":{
+      "espionage": 3
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-13",
+    "name": "Newspaper Editor",
+    "ability":{
+      "social": 3
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-14",
+    "name": "Book Publisher",
+    "ability":{
+      "social": 3
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-98",
+    "name": "Test 01",
+    "ability":{
+      "quality_assurance": 5
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "UR-99",
+    "name": "Test 02",
+    "ability":{
+      "quality_assurance": 5
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+  {
+    "id": "CR-01",
+    "name": "Artillery Piece",
+    "ability":{
+      "military": 5
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-02",
+    "name": "Enlisted Foot Soldier",
+    "ability":{
+      "military": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-03",
+    "name": "Food Rations",
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-04",
+    "name": "Ammunition",
+    "ability":{
+      "military": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-05",
+    "name": "Foot Soldier (N.C.O.)",
+    "ability":{
+      "military": 3
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-06",
+    "name": "U.S. Congressman",
+    "ability":{
+      "political": 5
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-07",
+    "name": "assemblyman",
+    "ability":{
+      "political": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-08",
+    "name": "Foreign Official",
+    "ability":{
+      "political": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-09",
+    "name": "abolitionist",
+    "ability":{
+      "social": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-10",
+    "name": "clergyman",
+    "ability":{
+      "social": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-13",
+    "name": "Factory Worker",
+    "ability":{
+      "industrial": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-14",
+    "name": "informant",
+    "ability":{
+      "espionage": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-16",
+    "name": "Agent Provocateur",
+    "ability":{
+      "espionage": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-17",
+    "name": "Small Manufacturer",
+    "ability":{
+      "industrial": 3
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-18",
+    "name": "Gold Coins",
+    "ability":{
+      "political": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "CR-19",
+    "name": "Silver Coins",
+    "ability":{
+      "political": 1
+    },
+    "type": "resource",
+    "rarity": "common"
+  },
+  {
+    "id": "UR-12",
+    "name": "Gold Bar",
+    "ability":{
+      "political": 3
+    },
+    "type": "resource",
+    "rarity": "uncommon"
+  },
+ 	{
+    "id": "CR-21",
+    "name": "Building",
+    "ability":{
+      "industrial": 2
+    },
+    "type": "resource",
+    "rarity": "common"
+  }
+  
+]

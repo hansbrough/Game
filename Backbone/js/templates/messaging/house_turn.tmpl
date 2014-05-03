@@ -1,0 +1,19 @@
+{{#message}}
+	<h4>{{titleCase name}}'s turn.</h4>
+	<p>
+		He rolled a <em>{{roll}}</em>
+		{{#if newCardType}}
+			{{#if added}}
+			and got a {{titleCase newCardType}} card.
+				{{else}}
+				and got a {{titleCase newCardType}} card but was BLOCKED.
+			{{/if}}
+		{{else}}
+			but didn't get a card.
+		{{/if}}
+	</p>
+	
+	{{#if upgrade}}
+	 <p>{{titleCase name}} traded for a <em>{{cardType upgrade}} card</em>.</p>
+	{{/if}}
+{{/message}}

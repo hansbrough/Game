@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>History Game built without MVC Library</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/history_game.css">
+</head>
+<body class="game unbox">
+
+  <div class="open-box"><a href="#" class="btn btn-primary btn-lg setup" role="button">Open the Game?</a></div>
+  
+
+  <div class="main">
+  <p id="user-msg">Welcome</p>
+  <h2 class="message">Your Cards</h2>
+  <ul class="event-balance">
+    <li class="2">2</li>
+    <li class="3">3</li>
+    <li class="4">4</li>
+    <li class="5">5</li>
+    <li class="6">6</li>
+    <li class="7 active">7</li>
+    <li class="8">8</li>
+    <li class="9">9</li>
+    <li class="10">10</li>
+    <li class="11">11</li>
+    <li class="12">12</li>
+  </ul>
+  <ul class="resource-guide union">
+    <h4>Union</h4>
+    <li class="8"><em>8</em> <span>Resource</span></li>
+    <li class="9"><em>9</em> <span>Resource</span></li>
+    <li class="10"><em>10</em> <span>Influence</span></li>
+    <li class="11"><em>11</em> <span>Influence</span></li>
+    <li class="12"><em>12</em> <span>Character</span></li>
+  </ul>
+  <ul class="resource-guide confederate">
+    <h4>Confederate</h4>
+    <li class="6"><em>6</em> <span>Influence</span></li>
+    <li class="5"><em>5</em> <span>Character</span></li>
+    <li class="4"><em>4</em> <span>Resource</span></li>
+    <li class="3"><em>3</em> <span>Resource</span></li>
+    <li class="2"><em>2</em> <span>Wild</span></li>
+  </ul>
+
+  <div class="dice-cup">
+    <div id="die1" class="dice">0</div>
+    <div id="die2" class="dice">0</div>
+    <a href="#" class="btn btn-primary roll">Roll</a>
+  </div>
+
+  <ul class="event cards"><span class="card-badge badge badge-important">Event</span></ul>
+
+  <div class="trade-container">
+    <div id="trading-well"><span>Drag tradable resources here</span></div>
+    <h4>What can you get for these cards?</h4>
+    <p class="upgrades">
+      <span class="badge badge-info tradable default">nothing yet...</span>
+    </p>
+  </div>
+
+  <ul class="resource cards"></ul>
+  <ul class="character cards"></ul>
+  <ul class="influence cards"></ul>
+  <ul class="wild cards"></ul>
+
+  <script type="game/control" name="Game" class="game-control">
+    Game.user='hans';
+  </script>
+  </div>
+</body>
+  <script src="../bower_components/jquery/jquery.js"></script>
+  <script src="../bower_components/jquery-ui/ui/jquery-ui.js"></script>
+  <script src="js/models/app.js"></script>
+  <script src="js/app.js"></script>
+</html>

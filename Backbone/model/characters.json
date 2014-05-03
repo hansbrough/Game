@@ -1,0 +1,993 @@
+[
+{
+  "id": "CP-01",
+  "name": "Alexander H. Stephens",
+  "headline": "Congressman from Georgia",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 10
+  },
+	"rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-02",
+  "name": "Charles Sumner",
+  "headline": "Senator from Massachusetts",
+  "affiliation": "union",
+  "ability":{
+    "political": 17
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-03|CV-09",
+			"roll":"social",
+			"resource":[
+				"CR-09:3|UR-13:2"
+			],
+			"people":[
+				"CP-04",
+				"RS-01"
+			]
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-03",
+  "name": "Robert M.T. Hunter",
+  "headline": "Confederate Secretary of State",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 15
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-04",
+  "name": "Salmon P. Chase",
+  "headline": "Senator from Ohio",
+  "affiliation": "union",
+  "ability":{
+    "political": 15
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-02"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-05",
+  "name": "LeRoy Pope Walker",
+  "headline": "Confederate Secretary of War",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 5,
+    "military": 10
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-06",
+  "name": "Stephen A. Douglas",
+  "headline": "Senator from Illinois",
+  "affiliation": "union",
+  "ability": {
+    "political": 20
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-07",
+  "name": "Francis Wilkinson Pickens",
+  "headline": "Governor of South Carolina",
+  "affiliation": "confederate",
+  "ability": {
+    "political": 15
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-08",
+  "name": "James Murray Mason",
+  "headline": "Senator from Virginia",
+  "affiliation": "confederate",
+  "ability": {
+    "political": 12
+  },
+  "modifier":{
+    "condition": {
+			"ability":"political:10",
+			"event":"CV-09"
+		},
+    "bonus": {
+		  "balance":1
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CP-09",
+  "name": "Lewis Cass",
+  "headline": "Senator from Michigan and leading spokesman for the doctrine of popular sovereignty",
+  "affiliation": "democrat",
+  "ability": {
+    "political":12,
+		"military":5
+  },
+  "modifier":{
+    "condition": {
+			"ability":"political:10",
+			"event":"CV-02"
+		},
+    "bonus": {
+		  "balance":1
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-01",
+  "name": "Mary Boykin Chesnut",
+  "headline": "Famous Diarist and wife of an Confederate senator",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 5,
+    "social": 10
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:10",
+			"event":"social",
+			"roll":"social"
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-02",
+  "name": "Mary Todd Lincoln",
+  "headline": "First Lady - wife of President Lincoln",
+  "affiliation": "union",
+  "ability":{
+    "political": 5,
+    "social": 5
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-03",
+  "name": "Mary Custis Lee",
+  "headline": "Wife of Robert E. Lee",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 5,
+    "social": 5
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:10",
+			"roll":"social"
+		},
+    "bonus": {
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-04",
+  "name": "Sarah Dawson Morgan",
+  "headline": "Diarist",
+  "affiliation": "confederate",
+  "ability":{
+    "social": 2
+  },
+  "modifier":{
+    "condition": {
+			"event":"social"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-05",
+  "name": "Elizabeth Keckley",
+  "headline": "Aid to First Lady and Former Slave",
+  "affiliation": "union",
+  "ability":{
+    "social": 2
+  },
+  "affinity":{
+    "condition": {
+			"people":"CS-02"
+		},
+    "bonus": {
+			"ability":"social:5"
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-06",
+  "name": "Varina Davis",
+  "headline": "First Lady and wife of Jefferson Davis",
+  "affiliation": "confederate",
+  "ability":{
+    "social": 5
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:5",
+			"event":"social"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-07",
+  "name": "Walt Whitman",
+  "headline": "American Poet and Author",
+  "affiliation": "union",
+  "ability":{
+    "social": 7,
+		"political": 3
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:13",
+			"event":"social",
+			"roll":"social"
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+  },
+
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CS-08",
+  "name": "Agnes Lee",
+  "headline": "Daughter of Robert E. Lee",
+  "affiliation": "confederate",
+  "ability":{
+    "social": 3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "US-01",
+  "name": "Frederick Douglass",
+  "headline": "African-American social reformer, orator and writer",
+  "affiliation": "union",
+  "ability":{
+    "social": 12
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:5",
+			"event":"social",
+			"roll":"social"
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+  },
+  "affinity":{
+    "condition": {
+		 	"people":"UP-02"
+		},
+    "bonus": {
+			"ability":"social:5"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "US-02",
+  "name": "Harriet Tubman",
+  "headline": " African-American abolitionist, humanitarian, and Union spy",
+  "affiliation": "union",
+  "ability":{
+    "social": 12,
+		"espionage": 5,
+		"military": 4
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:10",
+			"event":"social"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "RS-01",
+  "name": "Harriet Beecher Stowe",
+  "headline": "American Abolitionist and Author",
+  "affiliation": "union",
+	
+  "ability":{
+    "social": 20
+  },
+  "modifier":{
+    "condition": {
+			"ability":"social:5",
+			"event":"social",
+			"roll":"social"
+		},
+    "bonus": {
+			"balance":2,
+			"rarity":"uncommon"
+		}
+  },
+  "affinity":{
+    "condition": {
+		 	"event":"CV-01"
+		},
+    "bonus": {
+			"balance":2
+		}
+  },
+  "rarity":"rare",
+  "type": "character"
+},
+{
+  "id": "UP-01",
+  "name": "John Sherman",
+  "headline": "Senator from Ohio",
+  "affiliation": "union",
+  "ability":{
+    "political": 10,
+    "industrial": 10
+  },
+  "affinity":{
+    "condition": {
+		 	"people":"UM-13"
+		},
+    "bonus": {
+			"balance":"political:2"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UP-02",
+  "name": "Abraham Lincoln",
+  "headline": "Congressmen from Illinois",
+  "affiliation": "union",
+  "ability":{
+    "political": 10,
+    "social": 5,
+    "military": 0
+  },
+  "modifier":{
+    "condition": {},
+    "bonus": {}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UP-03",
+  "name": "John C. Breckinridge",
+  "headline": "Congressmen from Kentucky",
+  "affiliation": "confederate",
+  "ability":{
+    "political": 20,
+    "military": 0
+  },
+  "modifier":{
+    "condition": {},
+    "bonus": {}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UP-04",
+  "name": "Jefferson Davis",
+  "headline": "Senator from Mississippi",
+  "affiliation": "confederate",
+  "ability": {
+    "political": 15,
+		"military":10
+  },
+  "modifier":{
+    "condition": {
+			"event":"political"
+		},
+    "bonus": {
+			"balance":1
+		}
+	},
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "UP-05",
+  "name": "William H. Seward",
+  "headline": "Senator from New York",
+  "affiliation": "union",
+  "ability":{
+    "political": 20
+  },
+  "modifier":{
+    "condition": {
+		  "event":"CV-09",
+			"roll":"political"
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "CM-01",
+  "name": "William Askew",
+  "headline": "Private in the 1st Georgia Regiment",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 2
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-02",
+  "name": "John White",
+  "headline": "Private in the Virginia Regiment",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 2
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-03",
+  "name": "Robert Patterson",
+  "headline": "Private in the 12th Tennessee Infantry",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 2
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-04",
+  "name": "George Henry Graffam",
+  "headline": "Private in the 30th Maine Infantry",
+  "affiliation": "union",
+  "ability":{
+    "military": 2
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-05",
+  "name": "E. Joseph Averill",
+  "headline": "Sergeant in the 6th Vermont Infantry",
+  "affiliation": "union",
+  "ability":{
+    "military": 3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-06",
+  "name": "E.J. Buck",
+  "headline": "Sergeant in the 18th Wisconsin Volunteer Infantry",
+  "affiliation": "union",
+  "ability":{
+    "military": 3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-07",
+  "name": "Joseph Dore",
+  "headline": "Sergeant in the 7th New York State Militia",
+  "affiliation": "union",
+  "ability":{
+    "military": 3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-08",
+  "name": "Theodore Lyman",
+  "headline": "Lieutenant Colonel and aide-de-camp to Major General Meade",
+  "affiliation": "union",
+  "ability":{
+    "military": 10,
+		"political":5
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-09",
+  "name": "Braxton Bragg",
+  "headline": "Colonel in the Louisiana Militia and Sugar Plantation Owner",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10,
+		"political":5,
+		"industrial":3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CM-10",
+  "name": "Joseph Johnston",
+  "headline": "Colonel",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10
+  },
+  "modifier":{
+    "condition": {
+			"event":"military",
+			"ability":"military:10"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "CE-01",
+  "name": "Isabelle Marie Boyd",
+  "headline": "Confederate Spy",
+  "affiliation": "confederate",
+  "ability":{
+    "espionage": 5,
+    "social": 3
+  },
+  "rarity":"common",
+  "type": "character"
+},
+{
+  "id": "UM-01",
+  "name": "Stonewall Jackson",
+  "headline": "Confederate General",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 35,
+    "social": 5
+  },
+  "modifier":{
+    "condition": {
+			"roll":"military"
+		},
+    "bonus": {
+			"rarity":"military"
+		}
+  },
+  "affinity":{
+    "condition": {
+		 	"people":"UM-09"
+		},
+    "bonus": {
+			"balance":"military:2"
+		}
+  },
+  "rarity":"uncommon",
+  "remove_from_play": "After Battle of Chancellorsville",
+  "type": "character"
+},
+{
+  "id": "UM-02",
+  "name": "Nathan Bedford Forrest",
+  "headline": "Confederate General",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 20,
+    "industrial": 10,
+    "social": 5
+  },
+  "modifier":{
+    "condition": {
+			"roll":"military"
+		},
+    "bonus": {
+			"block":"military"
+		}
+  },
+
+  "type": "character"
+},
+{
+  "id": "UM-03",
+  "name": "Robert Anderson",
+  "headline": "Union Major",
+  "affiliation": "union",
+  "ability":{
+    "military": 15,
+    "political": 5
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-06"
+		},
+    "bonus": {
+			"ability":"military:10"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-04",
+  "name": "William Quantrill",
+  "headline": "Captain and Guerilla Leader",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10
+  },
+  "modifier":{
+    "condition": {
+			"roll":"military",
+			"ability":"military:10"
+		},
+    "bonus": {
+			"block":"military"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-05",
+  "name": "John Brown",
+  "headline": "American Revolutionary Abolitionist",
+  "affiliation": "union",
+  "ability":{
+    "political": 5,
+    "social": 5,
+    "military": 5
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-03",
+			"roll":"social"
+		},
+    "bonus": {
+			"balance":2,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"uncommon",
+  "remove_from_play": "After Harper's Ferry event.",
+  "type": "character"
+},
+{
+  "id": "UM-06",
+  "name": "Ulysses S. Grant",
+  "headline": "Union Army Officer",
+  "affiliation": "union",
+  "ability":{
+    "political": 0,
+    "military": 15
+  },
+  "modifier":{
+    "condition": {
+			"ability":"military:15",
+			"event":"military",
+			"roll":"military"
+		},
+    "bonus": {
+			"balance":2,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-07",
+  "name": "Captain Farragut",
+  "headline": "Union Naval Officer",
+  "affiliation": "union",
+  "ability":{
+    "political": 0,
+    "military": 3,
+		"naval": 10
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-08"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-08",
+  "name": "Winfield Scott",
+  "headline": "Lieutenant General who briefly commanded Union forces at the start of the Civil War. He developed the strategy to blockade all Southern ports and send an army down the Mississippi Valley which eventually won the war.",
+  "affiliation": "union",
+  "ability":{
+    "political": 20,
+    "military": 10
+  },
+  "modifier":{
+    "condition": {
+			"roll":"military"
+		},
+    "bonus": {
+			"rarity":"military"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-09",
+  "name": "Robert E. Lee",
+  "headline": "Lieutenant Colonel",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10
+  },
+  "modifier":{
+    "condition": {
+			"event":"military",
+			"roll":"military"
+		},
+    "bonus": {
+			"balance":2,
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-10",
+  "name": "James Longstreet",
+  "headline": "Lieutenant Colonel",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10
+  },
+  "modifier":{
+    "condition": {
+			"event":"military"
+		},
+    "bonus": {
+			"balance":1
+		}
+  },
+  "affinity":{
+    "condition": {
+		 	"people":"UM-09"
+		},
+    "bonus": {
+			"ability":"military:5"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-11",
+  "name": "Henry Halleck",
+  "headline": "Major General of the California Militia",
+  "affiliation": "union",
+  "ability":{
+    "military": 12,
+		"political":5,
+		"industrial":3
+  },
+  "modifier":{
+    "condition": {
+			"event":"political",
+			"ability":"political:10"
+		},
+    "bonus": {
+			"balance":1
+		}
+	},
+  "affinity":{
+    "condition": {
+		 	"people":"UM-06"
+		},
+    "bonus": {
+			"ability":"military:5"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-12",
+  "name": "Andrew H. Foote",
+  "headline": "U.S. Naval Commander",
+  "affiliation": "union",
+  "ability":{
+    "naval": 12
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-10"
+		},
+    "bonus": {
+			"balance":1
+		}
+	},
+  "affinity":{
+		"condition": {
+		 	"people":"UM-06"
+		},
+    "bonus": {
+			"ability":"naval:5"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-13",
+  "name": "William Tecumseh Sherman",
+  "headline": "Superintendent of the Louisiana State Seminary of Learning & Military Academy",
+  "affiliation": "union",
+  "ability":{
+    "military": 7,
+		"industrial":3
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-13"
+		},
+    "bonus": {
+			"balance":1
+		}
+	},
+  "affinity":{		
+		"condition": {
+		 	"people":"UM-06|UP-01"
+		},
+    "bonus": {
+			"ability":"military:10|political:10"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UM-14",
+  "name": "P. G. T. Beauregard",
+  "headline": "Superintending Engineer of the U.S. Custom House in New Orleans",
+  "affiliation": "confederate",
+  "ability":{
+    "military": 10,
+		"political":3
+  },
+  "modifier":{
+    "condition": {
+			"event":"CV-06",
+			"roll":"military"
+		},
+    "bonus": {
+			"balance":1,
+			"rarity":"uncommon"
+		}
+	},
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UI-01",
+  "name": "Andrew Carnegie",
+  "headline": "Wealthy Industrialist",
+  "affiliation": "union",
+  "ability":{
+    "military": 5,
+    "industrial": 25,
+    "social": 10
+  },
+  "modifier":{
+    "condition": {
+			"roll":"industrial"
+		},
+    "bonus": {
+			"rarity":"uncommon"
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UI-02",
+  "name": "Charles Rigdon",
+  "headline": "Confederate Pistol Manufacturer",
+  "affiliation": "confederate",
+  "ability":{
+    "industrial": 15
+  },
+  "rarity":"uncommon",
+  "type": "character"
+},
+{
+  "id": "UE-01",
+  "name": "Rose Greenhow",
+  "headline": "Confederate Spy",
+  "affiliation": "confederate",
+  "ability":{
+    "espionage": 15,
+    "social": 5
+  },
+  "modifier":{
+    "condition": {
+		  "ability":"espionage:5"
+		},
+    "bonus": {
+		  "balance":1
+		}
+  },
+  "rarity":"uncommon",
+  "type": "character"
+}
+]

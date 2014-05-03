@@ -1,0 +1,41 @@
+  {{#resources}}
+  <li id="{{id}}">
+	  <h3>{{name}} <span class="card-id">({{id}})</span></h3>
+	  <span class="badge badge-important card-badge">Resource</span>
+	  {{#if description}}
+		  <p class="description">{{description}}</p>
+		{{/if}}
+		
+		{{#if affiliation}}
+		  <span>affiliation: {{affiliation}}</span>
+		{{/if}}
+		
+		{{#if ability}}
+		<ul class="ability power">
+		  <h4>Abilities</h4>
+			{{#each ability}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+		
+		{{#if modifier}}
+		<ul class="modify power">
+		  <h4>Modifiers</h4>
+			{{#each modifier}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+
+		{{#if affinity}}
+		<ul class="affinity power">
+		  <h4>Affinity</h4>
+			{{#each affinity}}
+			  <li><span>{{@key}}:</span> {{this}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+		
+	</li>
+	{{/resources}}

@@ -1,0 +1,54 @@
+[
+	{
+  	"id": "UR-06",
+  	"combination": {"UR-02":1,"CR-01":1,"CR-02":1,"CR-03":1,"CR-04":1}
+	},
+  {
+    "id": "UR-07", 
+    "combination": {"CR-02":2,"CR-05":1}
+	},
+	{
+  	"id": "UR-08",
+		"combination": {"UR-07":1,"CR-03":1,"CR-04":1,"UR-02":1}
+  },
+	{
+    "id": "UR-09",
+	  "combination": {"CR-06":1,"CR-07":1,"CR-11":1,"CR-18":1}
+	},
+	{
+    "id": "UR-10",
+	  "combination": {"UR-09":1,"CR-08":1,"CR-18":1}
+	},
+	{
+    "id": "UR-11",
+	  "combination": {"CR-13":1,"CR-17":1,"UR-12":1,"CR-21":1}
+	},
+	{
+    "id": "CR-06",
+	  "combination": {"CR-07":1,"CR-18":1}
+	},
+	{
+    "id": "UR-09",
+	  "combination": {"CR-06":1,"CR-11":1,"CR-18":1}
+	},
+	{
+    "id": "UR-12",
+	  "combination": {"CR-14":1,"CR-16":1}
+	},
+	{
+    "id": "UR-13",
+	  "combination": {"CR-09":1,"CR-19":1}
+	},
+	{
+    "id": "UR-13",
+	  "combination": {"CR-09":1,"CR-18":1}
+	},
+	{
+	  "id": "UR-14",
+		"combination": {"CR-09":1,"CR-18":1}
+	},
+	{
+    "id": "UR-14",
+	  "combination": {"CR-09":1,"CR-19":1}
+	}
+]

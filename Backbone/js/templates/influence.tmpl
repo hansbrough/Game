@@ -1,0 +1,17 @@
+
+  {{#influence_card}}
+  <li id="{{id}}">
+	  <h3>{{name}} <span class="card-id">({{id}})</span></h3>
+	  <span class="badge badge-important card-badge">Ability</span>
+	  {{#if description}}
+		  <p class="description">{{description}}</p>
+		{{/if}}
+		<ul class="ability power">
+		  <h4>Ability</h4>
+		  {{#each ability}}
+		    <li><span>{{@key}}: </span> {{this}}</li>
+		  {{/each}}
+		</ul>
+		
+	</li>
+	{{/influence_card}}

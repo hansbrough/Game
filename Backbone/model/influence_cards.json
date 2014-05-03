@@ -1,0 +1,122 @@
+[
+  {
+    "id": "CF-01",
+    "name": "Political Ability Bonus",
+    "description": "A character of your choice gains 2 political ability points",
+    "ability": {
+			"political": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-02",
+    "name": "Military Ability Bonus",
+    "description": "A character of your choice gains 2 military ability points",
+    "ability": {
+			"military": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-03",
+    "name": "Social Ability Bonus",
+    "description": "A character of your choice gains 2 social ability points",
+    "ability": {
+			"social": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-04",
+    "name": "Espionage Ability Bonus",
+    "description": "A character of your choice gains 2 espionage ability points",
+    "ability": {
+			"espionage": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-05",
+    "name": "Industrial Ability Bonus",
+    "description": "A character of your choice gains 2 industrial ability points",
+    "ability": {
+			"industrial": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-06",
+    "name": "Naval Ability Bonus",
+    "description": "A character of your choice gains 2 naval ability points",
+    "ability": {
+			"naval": 2
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-07",
+    "name": "Political Ability Bonus",
+    "description": "A character of your choice gains 3 political ability points",
+    "ability": {
+			"political": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-08",
+    "name": "Military Ability Bonus",
+    "description": "A character of your choice gains 3 military ability points",
+    "ability": {
+			"military": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-09",
+    "name": "Social Ability Bonus",
+    "description": "A character of your choice gains 3 social ability points",
+    "ability": {
+			"social": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-10",
+    "name": "Espionage Ability Bonus",
+    "description": "A character of your choice gains 3 espionage ability points",
+    "ability": {
+			"espionage": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-11",
+    "name": "Industrial Ability Bonus",
+    "description": "A character of your choice gains 3 industrial ability points",
+    "ability": {
+			"industrial": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  },
+  {
+    "id": "CF-12",
+    "name": "Naval Ability Bonus",
+    "description": "A character of your choice gains 3 naval ability points",
+    "ability": {
+			"naval": 3
+		},
+    "rarity": "common",
+    "type": "influence"
+  }
+]
